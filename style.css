@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #3e5c76;
+    border-bottom: 1px solid #748CAB;
+}
+
+.Lab{
+    position: absolute;
+    height: 63px;
+    width: 200px;
+    left: 13%;
+    padding-top: 23px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.login{
+    display: flex;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 58%;
+    top: 15px;
+}
+.login .email{
+    padding-left: 10px;
+    
+}
+.login .password{
+    padding-left: 20px;
+}
+.login .email .font,
+.login .password .font{
+    font-size: 15px;
+    padding-bottom: 4px;
+    color: white;
+    
+}
+.login .email input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid #1d2d44;
+    border-radius: 8px;
+}
+.login .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 10px;
+    border: 1px solid #1d2d44;
+    border-radius: 8px;
+}
+.icon1{
+    position: relative;
+}
+.icon1 i{
+    position: absolute;
+    left: -15px;
+    top: 28px;
+    pad: 9px 8px;
+    color: white;
+    size: 100%;
+}
+.icon2{
+    position: relative;
+}
+.icon2 i{
+    position: absolute;
+    left: -15px;
+    top: 28px;
+    pad: 9px 8px;
+    color:white;
+    size: 100%;
+}
+.signinbtn{
+    height: 24px;
+    width: 80px;
+    font-weight: 600px;
+    font-family: 'Koulen';
+    margin-left: 1120;
+    margin-top: 38px;
+    border-radius: 5px;
+    outline: #1d2d44;
+    cursor: pointer;
+    color: white;
+    background: #748CAB;
+    border: 1px solid #1d2d44;
+}
+.signinbtn:hover{
+    background: #3e5c76;
+}
+section{
+    height: 650px;
+    width: -500px;
+    margin-top: -500px;
+    background-image: url(asset/blue.jpg);
+}
+.smilefont{
+    font-family: 'koulen';
+    font-size: 25px;
+    margin-left: 200px;
+    width: 600px;
+    margin-top: 500px;
+    font-weight: bold;
+    
+}
+.signup{
+    font-family:'public-sans';
+    position: absolute;
+    left: 57%;
+    top: 100px;
+    
+}
+.signup .create{
+    font-size:40px;
+    margin: 25px 0;
+}
+.icon3{
+    position: relative;
+}
+.icon3 i{
+    position: absolute;
+    left: -20px;
+    top: 60px;
+    pad: 9px 8px;
+    color:black;
+    size: 100%;
+}
+.signup .signup1 input{
+    margin-top: 50px;
+    height: 35px;
+    width: 240px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #1d2d44;
+    border-radius: 10px
+}
+.signup .signup1 .lastname{
+    margin-left: 250px;
+    margin-top: -35px;
+   
+}
+
+.signup .signup1 .email{
+    margin-top: 20px;
+    width: 490px;
+    margin-left: -2px;
+} 
+.icon4{
+    position: relative;
+}
+.icon4 i{
+    position: absolute;
+    left: -22px;
+    top: 30px;
+    pad: 9px 8px;
+    color:black;
+    size: 100%;
+}   
+
+.signup .signup1 .password1{
+    margin-top: 10;
+    width: 490px;
+    margin-left: -2px;
+}
+.icon5{
+    position: relative;
+}
+.icon5 i{
+    position: absolute;
+    left: -20px;
+    top: 22px;
+    pad: 9px 8px;
+    color:black;
+    size: 100%;
+}   
+.signup .signup1 .password2{
+    margin-top: 10px;
+    width: 490px;
+    margin-left: -2px;
+}
+.icon6{
+    position: relative;
+}
+.icon6 i{
+    position: absolute;
+    left: -20px;
+    top: 22px;
+    pad: 9px 8px;
+    color:black;
+    size: 100%;
+}  
+.signup .signup1 .birthday{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+}
+.signup .signup1 .month,
+.signup .signup1 .day,
+.signup .signup1 .year{
+    height: 28px;
+    border-radius: 8px;
+}
+.signup .signup1 .day,
+.signup .signup1 .year{
+    margin-left:5px ;
+    border-radius: 8px;
+}
+.signup .signup1 .gender1{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+}
+.signup .signup1 input[type="radio"]{
+    height: 15px;
+    margin-left: 100px;
+    margin-top: -50px;
+   
+}
+.signup .signup1 input[value=Female]{
+    margin-left: -120px;
+
+    
+    
+} 
+.signup .signup1 input[value=Male]{
+    margin-left: -40px;
+    
+    
+} 
+ .signup .signup1 .font1{
+    margin-left: 90px;
+    margin-top: -19px;
+    font-weight: bold;
+}
+.signup .signup1 .font21{
+    margin-left: 218px;
+    margin-top: -16px;
+    font-weight: bold;
+}
+.signup .signup1 .agreement{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color:#1d2d44;
+}
+.signup .signup1 .signup3{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: #1d2d44;
+    background: #748CAB;
+}
+.signup .signup1 .signup3:hover{
+    background: #3e5c76;
+}
+
